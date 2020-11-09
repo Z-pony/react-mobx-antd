@@ -4,10 +4,15 @@
 
 ### 你需要准备
 - 下载开发环境node:
+
 [https://nodejs.org/zh-cn/](https://nodejs.org/zh-cn/)
+
 - 下载编辑器vscode:
+
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
 - 为vscode安装插件并配置，提高开发效率，以下是我的配置链接，可参考
+
 [https://mp.weixin.qq.com/s/k1xDIm7-mhTF_2jzHAMDRQ](https://mp.weixin.qq.com/s/k1xDIm7-mhTF_2jzHAMDRQ)
 
 ### 你需要学习
@@ -37,9 +42,13 @@
 
 ### 运行
 - 本地运行:
+
 1.yarn install 或 npm install
+
 2.yarn start 或 npm run start
+
 - 打包
+
 yarn build 或 npm run build
 
 ### 浏览器打开
