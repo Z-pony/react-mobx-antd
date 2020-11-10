@@ -51,3 +51,4 @@ http://localhost:3000/
 ### tips
 1.运行node版本11.7.0，如果是12.0.0 可能会报错
 2.关于node版本切换，建议安装nvm
+3.关于eslint,建议vscode安装eslint插件并且再setting中设置保存文件自动修复,具体设置参数，可参考上述所说的我的vscode插件配置[https://mp.weixin.qq.com/s/k1xDIm7-mhTF_2jzHAMDRQ](https://mp.weixin.qq.com/s/k1xDIm7-mhTF_2jzHAMDRQ)
