@@ -39,7 +39,7 @@
 
 ### 运行
 - 本地运行:
-1.yarn install 或 npm install
+1.yarn  或 npm install
 2.yarn start 或 npm run start
 - 打包
 yarn build 或 npm run build
