@@ -47,3 +47,7 @@ yarn build 或 npm run build
 ### 浏览器打开
 http://localhost:3000/
 
+
+### tips
+1.运行node版本11.7.0，如果是12.0.0 可能会报错
+2.关于node版本切换，建议安装nvm
