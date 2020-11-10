@@ -5,6 +5,7 @@ import { toJS } from 'mobx';
 import { inject, observer } from 'mobx-react';
 import { Button } from 'antd';
 import { prefixPath } from '@/utils/constants';
+import pic from '@/images/pic.jpg';
 
 interface IState {
     routerObj: Record<string, any>;
@@ -21,7 +22,10 @@ class Login extends React.Component<any, IState> {
     render() {
         return (
             <div className="zpony_city">
-                <Button onClick={this.toApp}>去app</Button>
+                <img src={pic}></img>
+                <Button type="primary" onClick={this.toApp}>
+                    去app
+                </Button>
             </div>
         );
     }

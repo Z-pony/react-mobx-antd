@@ -3,16 +3,11 @@
 ## 开发者文档
 
 ### 你需要准备
-下载开发环境node:
-
+- 下载开发环境node:
 [https://nodejs.org/zh-cn/](https://nodejs.org/zh-cn/)
-
-下载编辑器vscode:
-
+- 下载编辑器vscode:
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
-
-为vscode安装插件并配置，提高开发效率，以下是我的配置链接，可参考
-
+- 为vscode安装插件并配置，提高开发效率，以下是我的配置链接，可参考
 [https://mp.weixin.qq.com/s/k1xDIm7-mhTF_2jzHAMDRQ](https://mp.weixin.qq.com/s/k1xDIm7-mhTF_2jzHAMDRQ)
 
 ### 你需要学习
@@ -28,12 +23,14 @@
 ### 项目结构
 ```
   .src
-  |---models mobx的store
   |---components 组件
+  |---models mobx的store
+  |---images 图片
   |---pages 页面
   |---route 路由配置
   |---services 服务请求
   |---stores mobx的store
+  |---styles 样式
   |---utils 公共方法
   |---app.tsx 主页面路由
   |---index.tsx 入口文件
@@ -41,14 +38,10 @@
 ```
 
 ### 运行
-本地运行:
-
+- 本地运行:
 1.yarn install 或 npm install
-
 2.yarn start 或 npm run start
-
-打包
-
+- 打包
 yarn build 或 npm run build
 
 ### 浏览器打开

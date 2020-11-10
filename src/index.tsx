@@ -6,8 +6,7 @@ import reportWebVitals from '@/reportWebVitals';
 import { configure } from 'mobx';
 import { Provider } from 'mobx-react';
 import stores from '@/stores';
-
-import '@/index.less';
+import '@/styles/index.less';
 
 configure({ enforceActions: 'observed' });
 // promiseFinally.shim();
