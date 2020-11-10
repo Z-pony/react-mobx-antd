@@ -21,7 +21,7 @@ class Login extends React.Component<any, IState> {
     };
     render() {
         return (
-            <div className="zpony_city">
+            <div>
                 <img src={pic}></img>
                 <Button type="primary" onClick={this.toApp}>
                     去app
